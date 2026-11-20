@@ -1,0 +1,16 @@
+// multiple inputs in the same line
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, c;
+
+    cin >> a >> b >> c;
+    cout << a << ' ' << b << ' ' << c << '\n';
+
+    cout << "Sum of a,b,c: " << a + b + c << '\n';
+
+    return 0;
+}
