@@ -18,3 +18,25 @@ int main()
 
     return 0;
 }
+
+
+
+// Another Tricky Floating point division:
+
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     double div1 = 7 / 2;     // 3
+//     double div2 = 7.0 / 2;   // 3.5
+//     double div3 = 7 / 2.0;   // 3.5
+//     double div4 = 7.0 / 2.0; // 3.5
+
+//     cout << div1 << endl
+//          << div2 << endl
+//          << div3 << endl
+//          << div4 << endl;
+
+//     return 0;
+// }
